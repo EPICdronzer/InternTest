@@ -44,7 +44,7 @@ function App() {
 
       <main className="bg-gray-100">
         <Routes>
-          <Route path="/dashboard" element={<DashBoard/>}/>
+          <Route path="/" element={<DashBoard/>}/>
         </Routes>
       </main>
 
