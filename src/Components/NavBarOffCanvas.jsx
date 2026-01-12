@@ -19,7 +19,7 @@ function NavBarOffCanvas() {
           <hr/>
           
           <ul className="space-y-3 !pb-5 text-xs">
-          <NavLink to="/dashboard" className="!no-underline decoration-0 text-white hover:!opacity-75">
+          <NavLink to="/" className="!no-underline decoration-0 text-white hover:!opacity-75">
             <li className="flex justify-between"><div className="flex gap-4 items-center "><AiOutlineDashboard/>Dashboard</div></li>
           </NavLink>
           </ul>
