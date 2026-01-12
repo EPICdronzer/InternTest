@@ -16,7 +16,7 @@ function SegmentForDate() {
           <button
             key={option.value}
             onClick={() => setValue(option.value)}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
+            className={`px-4 py-2 rounded-md font-medium transition-all ${
               value === option.value
                 ? "bg-black text-white shadow-sm"
                 : "text-gray-600 hover:text-gray-900"

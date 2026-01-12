@@ -31,7 +31,7 @@ function DashBoard() {
                 <div className="w-full  bg-cyan-400 text-white  p-3">
                     <div className="justify-between flex items-center">
                         <div className='flex flex-col'>
-                            <span className='!text-lg font-bold'>10468</span>
+                            <span className="text-sm sm:text-base md:text-lg font-bold">10468</span>
                             <span>Members Online</span>
                         </div>
                         <div className="flex gap-1 items-center">
@@ -46,7 +46,7 @@ function DashBoard() {
                 <div className="w-full  bg-[#ADD8E6] text-white  p-3">
                     <div className="justify-between flex items-center">
                         <div className='flex flex-col'>
-                            <span className='!text-lg font-bold'>10468</span>
+                            <span className="text-sm sm:text-base md:text-lg font-bold">10468</span>
                             <span>Members Online</span>
                         </div>
                         <div className="flex gap-1 items-center">
@@ -61,7 +61,7 @@ function DashBoard() {
                 <div className="w-full  bg-yellow-400 text-white  p-3">
                     <div className="justify-between flex items-center">
                         <div className='flex flex-col'>
-                            <span className='!text-lg font-bold'>10468</span>
+                            <span className="text-sm sm:text-base md:text-lg font-bold">10468</span>
                             <span>Members Online</span>
                         </div>
                         <div className="flex gap-1 items-center">
@@ -76,7 +76,7 @@ function DashBoard() {
                 <div className="w-full  bg-[#FA8072] text-white  p-3">
                     <div className="justify-between flex items-center">
                         <div className='flex flex-col'>
-                            <span className='!text-lg font-bold'>10468</span>
+                            <span className="text-sm sm:text-base md:text-lg font-bold">10468</span>
                             <span>Members Online</span>
                         </div>
                         <div className="flex gap-1 items-center">
@@ -139,14 +139,14 @@ function DashBoard() {
 
 
 
-                <div className="col-span-2 row-span-3  w-full p-2 bg-white">
-                    <div className="justify-between flex items-center w-full px-3">
+                <div className="col-span-1 sm:col-span-2 md:col-span-2 row-span-3 w-full p-2 bg-white">
+                    <div className="justify-between flex items-center w-full px-3 flex-wrap ">
                         <div className="flex flex-col">
                             <span className="font-bold text-sm">Traffic</span>
                             <span className="font-bold opacity-75 text-xs">October 2017</span>
                         </div>
-                        <div className="">
-                            <SegmentForDate/>
+                        <div className="text-xs sm:text-sm ">
+                        <SegmentForDate />
                         </div>
                         <button className="!text-xl bg-blue-400 p-1 text-white">
                             <IoMdCloudDownload/>
@@ -275,7 +275,7 @@ function DashBoard() {
                         </div>
                     </div>
                 </div> 
-                <div className="col-span-2 row-span-4 bg-white p-2">
+                <div className="col-span-1 sm:col-span-2 md:col-span-2 row-span-4 bg-white p-2">
                     <div className="bg-gray-100 font-bold text-lg p-2">
                         World
                     </div>
